@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="view.PracticalTestMainActivity">
+
+    <Button
+        android:id="@+id/navigate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate_text"
+        android:layout_gravity="end" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/left_clicks_text"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="@string/zero"/>
+
+        <TextView
+            android:id="@+id/right_clicks_text"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:saveEnabled="false"
+            android:text="@string/zero"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/press_me_button"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/press_me_button_text"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/press_me_too_button"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="@string/press_me_too_button_text"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
